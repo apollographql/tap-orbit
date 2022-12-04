@@ -14,7 +14,7 @@ class MembersStream(BaseStream):
 
     @property
     def path(self):
-        return "/members"
+        return "members"
 
     @property
     def api_method(self):

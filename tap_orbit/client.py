@@ -11,8 +11,7 @@ from requests.auth import HTTPBasicAuth
 
 
 LOGGER = singer.get_logger()
-BASE_URL = "https://app.orbit.love/"
-
+BASE_URL = "https://app.orbit.love/api/v1"
 
 class OrbitClient(BaseClient):
     def __init__(self, config):
@@ -40,8 +39,8 @@ class OrbitClient(BaseClient):
     def get_authorization(self):
         pass
 
-    def make_request(self, path, method, page_number, base_backoff=45):
-        url = BASE_URL + self.workspace_id + path
+    def make_request(self, path, method, page_number):
+        url = f"{BASE_URL}/{self.workspace_id}/{path}"
 
         params = self.get_params(page_number)
 
@@ -50,7 +49,7 @@ class OrbitClient(BaseClient):
         LOGGER.info("Making {} request to {}".format(method, url))
 
         response = requests.request(
-            method, url, params=params, headers=headers, base_backoff=45
+            method, url, params=params, headers=headers
         )
 
         LOGGER.info("Received response ({}) from server".format(response.status_code))
@@ -63,16 +62,16 @@ class OrbitClient(BaseClient):
             LOGGER.info("Got a 401, unauthorized request")
             return None
 
-        if response.status_code == 429:
-            LOGGER.info(
-                "Got a 429, sleeping for {} seconds and trying again".format(
-                    base_backoff
-                )
-            )
-            time.sleep(base_backoff)
-            return self.make_request(
-                 path, method, page_number, base_backoff * 2
-            )
+        # if response.status_code == 429:
+        #     LOGGER.info(
+        #         "Got a 429, sleeping for {} seconds and trying again".format(
+        #             base_backoff
+        #         )
+        #     )
+        #     time.sleep(base_backoff)
+        #     return self.make_request(
+        #          path, method, page_number, base_backoff * 2
+        #     )
 
         if response.status_code == 404:
             LOGGER.info("Got a 404, resource was not found")

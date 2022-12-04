@@ -15,6 +15,13 @@ class BaseStream(base):
     KEY_PROPERTIES = ["id"]
     CACHE = False
 
+    def sync_data(self):
+        table = self.TABLE
+        LOGGER.info("Syncing data for {}".format(table))
+        self.sync_paginated(self.path, self.api_method)
+
+        return self.state
+
     def sync_paginated(self, path, method):
         table = self.TABLE
         page_number = 1
@@ -37,13 +44,6 @@ class BaseStream(base):
                 page_number += 1
             else:
                 break
-
-    def sync_data(self):
-        table = self.TABLE
-        LOGGER.info("Syncing data for {}".format(table))
-        self.sync_paginated(self.path, self.api_method)
-
-        return self.state
 
     def get_stream_data(self, response):
         transformed = []

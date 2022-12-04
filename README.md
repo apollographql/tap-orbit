@@ -20,7 +20,8 @@ It:
 
 ```bash
 git clone git@github.com:fishtown-analytics/tap-orbit.git
-cd tap-orbit
+python3 -m venv ~/.virtualenvs/tap-orbit
+source ~/.virtualenvs/tap-orbit/bin/activate
 pip install -e .
 ```
 

@@ -1,5 +1,4 @@
 {
-    "api_key": "abc123token",
-    "workspace_id": "abcworkspacename",
-    "user_agent": "tap-orbit <your-email@domain.com>"
+    "api_key": "abc_123456789_token",
+    "workspace_id": "abccompany_workspace"
 }

@@ -14,7 +14,7 @@ class ActivitiesStream(BaseStream):
 
     @property
     def path(self):
-        return "/activities"
+        return "activities"
 
     @property
     def api_method(self):

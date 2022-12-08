@@ -34,7 +34,8 @@
         },
         "birthday": {
           "type": [
-            "null"
+            "null",
+            "string"
           ]
         },
         "company": {

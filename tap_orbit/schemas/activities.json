@@ -61,6 +61,44 @@
             "string"
           ]
         },
+        "tags": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "properties": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "github_issue": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "github_repository": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "github_organization": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }
+          }
+        },
         "g_body": {
           "type": [
             "null",

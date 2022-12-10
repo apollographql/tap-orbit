@@ -1,9 +1,8 @@
 # [WIP] tap-orbit
 
 ⚠️ This is a work in progress tap. To-do:
-- [ ] Incrementalize the activities endpoint
+- [ ] Incrementalize endpoints
 
-Author: Claire Carroll (claire@fishtownanalytics.com)
 
 This is a [Singer](http://singer.io) tap that produces JSON-formatted data following the [Singer spec](https://github.com/singer-io/getting-started/blob/master/SPEC.md).
 
@@ -12,6 +11,8 @@ It:
 - Extracts the following resources:
   - activities
   - members
+  - organizations
+  - organization membership
 
 
 ### Quick Start
@@ -47,5 +48,3 @@ Step 4 generates a a file called `catalog.json` that specifies all the available
 ```bash
 tap-orbit -c config.json --catalog catalog.json
 ```
-
-Copyright &copy; 2020 Fishtown Analytics

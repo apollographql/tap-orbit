@@ -91,6 +91,12 @@
                 "string"
               ]
             },
+            "github_organization": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
             "github_pull_request": {
               "type": [
                 "null",
@@ -98,12 +104,6 @@
               ]
             },
             "github_discussion_category": {
-              "type": [
-                "null",
-                "string"
-              ]
-            },
-            "github_organization": {
               "type": [
                 "null",
                 "string"

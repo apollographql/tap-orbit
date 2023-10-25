@@ -21,7 +21,7 @@
         "null",
         "object"
       ],
-      "properties": { 
+      "properties": {
         "action": {
           "type": [
             "null",
@@ -103,6 +103,18 @@
                 "string"
               ]
             },
+            "github_pull_request": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "github_discussion_category": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
             "github_repository": {
               "type": [
                 "null",
@@ -110,6 +122,42 @@
               ]
             },
             "github_organization": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "tweet_source": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "twitter_account": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "discourse_category ": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "slack_channel ": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "discourse_host": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "slack_team": {
               "type": [
                 "null",
                 "string"
@@ -177,6 +225,24 @@
             "string"
           ]
         },
+        "t_tweet": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "tweet_context": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "tweet_source": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
         "g_merged_by": {
           "type": [
             "null",
@@ -202,6 +268,12 @@
           ]
         },
         "body": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "body_html": {
           "type": [
             "null",
             "string"
@@ -238,6 +310,12 @@
           ]
         },
         "custom_type": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "s_thread_ts": {
           "type": [
             "null",
             "string"

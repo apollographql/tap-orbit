@@ -79,24 +79,6 @@
             "object"
           ],
           "properties": {
-            "discord_category": {
-              "type": [
-                "null",
-                "string"
-              ]
-            }, 
-            "discord_channel": {
-              "type": [
-                "null",
-                "string"
-              ]
-            },
-            "discord_server": {
-              "type": [
-                "null",
-                "string"
-              ]
-            },
             "github_issue": {
               "type": [
                 "null",
@@ -134,6 +116,24 @@
               ]
             },
             "twitter_account": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "discord_category": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }, 
+            "discord_channel": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "discord_server": {
               "type": [
                 "null",
                 "string"

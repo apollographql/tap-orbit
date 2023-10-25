@@ -21,7 +21,7 @@
         "null",
         "object"
       ],
-      "properties": {
+      "properties": { 
         "action": {
           "type": [
             "null",
@@ -79,6 +79,24 @@
             "object"
           ],
           "properties": {
+            "discord_category": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }, 
+            "discord_channel": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "discord_server": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
             "github_issue": {
               "type": [
                 "null",
@@ -158,6 +176,72 @@
             "null",
             "string"
           ]
+        },
+        "g_merged_by": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "activity_link": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "orbit_url": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "weight": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "body": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "custom_context": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "custom_description": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "custom_link": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "custom_link_text": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "custom_title": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "custom_type": {
+          "type": [
+            "null",
+            "string"
+          ]
         }
       }
     },
@@ -224,6 +308,34 @@
           }
         },
         "repository": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "id": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "user": {
           "type": [
             "null",
             "object"

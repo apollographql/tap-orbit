@@ -180,6 +180,12 @@
                 "null",
                 "string"
               ]
+            },
+            "url": {
+              "type": [
+                "null",
+                "string"
+              ]
             }
           }
         },
@@ -304,12 +310,6 @@
           ]
         },
         "body": {
-          "type": [
-            "null",
-            "string"
-          ]
-        },
-        "url": {
           "type": [
             "null",
             "string"

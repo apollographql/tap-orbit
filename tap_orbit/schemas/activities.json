@@ -139,13 +139,31 @@
                 "string"
               ]
             },
-            "discourse_category ": {
+            "discord_forum_tags": {
               "type": [
                 "null",
                 "string"
               ]
             },
-            "slack_channel ": {
+            "subreddit": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "slack_channel": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "slack_team": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "discourse_category": {
               "type": [
                 "null",
                 "string"
@@ -157,7 +175,7 @@
                 "string"
               ]
             },
-            "slack_team": {
+            "csv_import": {
               "type": [
                 "null",
                 "string"
@@ -225,6 +243,30 @@
             "string"
           ]
         },
+        "g_merged_by": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "g_forked_at": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "g_forkee_owner": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "t_user": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
         "t_tweet": {
           "type": [
             "null",
@@ -238,12 +280,6 @@
           ]
         },
         "tweet_source": {
-          "type": [
-            "null",
-            "string"
-          ]
-        },
-        "g_merged_by": {
           "type": [
             "null",
             "string"
@@ -268,6 +304,18 @@
           ]
         },
         "body": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "url": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "d_title": {
           "type": [
             "null",
             "string"

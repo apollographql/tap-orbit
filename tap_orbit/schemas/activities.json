@@ -126,7 +126,19 @@
                 "null",
                 "string"
               ]
-            }, 
+            },
+            "channel_title": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "video_title": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
             "discord_channel": {
               "type": [
                 "null",

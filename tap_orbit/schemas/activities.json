@@ -96,6 +96,108 @@
                 "null",
                 "string"
               ]
+            },
+            "github_pull_request": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "github_discussion_category": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "tweet_source": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "twitter_account": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "discord_category": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "channel_title": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "video_title": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "discord_channel": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "discord_server": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "discord_forum_tags": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "subreddit": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "slack_channel": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "slack_team": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "discourse_category": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "discourse_host": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "csv_import": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "url": {
+              "type": [
+                "null",
+                "string"
+              ]
             }
           }
         },
@@ -154,6 +256,126 @@
           ]
         },
         "is_pull_request": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "g_merged_by": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "g_forked_at": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "g_forkee_owner": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "t_user": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "t_tweet": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "tweet_context": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "tweet_source": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "activity_link": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "orbit_url": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "weight": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "body": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "d_title": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "body_html": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "custom_context": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "custom_description": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "custom_link": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "custom_link_text": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "custom_title": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "custom_type": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "s_thread_ts": {
           "type": [
             "null",
             "string"
@@ -224,6 +446,62 @@
           }
         },
         "repository": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "id": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "user": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "id": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "note": {
           "type": [
             "null",
             "object"
